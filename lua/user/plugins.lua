@@ -62,6 +62,7 @@ packer.startup(function(use)
   use {
     'lukas-reineke/indent-blankline.nvim',
     config = function()
+      require("ibl").setup()
       require('user.plugins.indent-blankline')
     end
   }
@@ -150,6 +151,7 @@ packer.startup(function(use)
 
   use {
     'j-hui/fidget.nvim',
+    tag = 'legacy',
     config = function()
       require('fidget').setup{}
     end,

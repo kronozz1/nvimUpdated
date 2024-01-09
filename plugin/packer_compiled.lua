@@ -109,7 +109,7 @@ _G.packer_plugins = {
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   ["indent-blankline.nvim"] = {
-    config = { "\27LJ\2\2=\0\0\2\0\2\0\0046\0\0\0'\1\1\0B\0\2\1K\0\1\0\"user.plugins.indent-blankline\frequire\0" },
+    config = { "\27LJ\2\2[\0\0\2\0\4\0\t6\0\0\0'\1\1\0B\0\2\0029\0\2\0B\0\1\0016\0\0\0'\1\3\0B\0\2\1K\0\1\0\"user.plugins.indent-blankline\nsetup\bibl\frequire\0" },
     loaded = true,
     path = "/home/lsdaman/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
@@ -335,7 +335,7 @@ try_loadstring("\27LJ\2\0025\0\0\2\0\2\0\0046\0\0\0'\1\1\0B\0\2\1K\0\1\0\26user.
 time([[Config for vim-test]], false)
 -- Config for: indent-blankline.nvim
 time([[Config for indent-blankline.nvim]], true)
-try_loadstring("\27LJ\2\2=\0\0\2\0\2\0\0046\0\0\0'\1\1\0B\0\2\1K\0\1\0\"user.plugins.indent-blankline\frequire\0", "config", "indent-blankline.nvim")
+try_loadstring("\27LJ\2\2[\0\0\2\0\4\0\t6\0\0\0'\1\1\0B\0\2\0029\0\2\0B\0\1\0016\0\0\0'\1\3\0B\0\2\1K\0\1\0\"user.plugins.indent-blankline\nsetup\bibl\frequire\0", "config", "indent-blankline.nvim")
 time([[Config for indent-blankline.nvim]], false)
 -- Config for: stabilize.nvim
 time([[Config for stabilize.nvim]], true)
